@@ -9,21 +9,23 @@ html {
   box-sizing: inherit;
 }
 
-.boxes {
+.cards {
   font-weight: bold;
   color: #fff;
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  background-color: #713837;
+  margin: 0.3em;
+  border-radius: 4px
 }
 
-.boxes a:hover {
+.cards a:hover {
   background-color: #f33;
   color: #fff;
 }
 
-.boxes a {
-  display: inline-block;
-  padding: 0.5em 0.75em;
-  background-color: #713837;
-  
+
+
 }
 
 
