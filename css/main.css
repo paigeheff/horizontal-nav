@@ -7,9 +7,11 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
+  background-color: #79756f;
 }
 
 .cards {
+  text-align: center;
   font-weight: bold;
   color: #fff;
   display: inline-block;
@@ -17,27 +19,10 @@ html {
   background-color: #713837;
   margin: 0.3em;
   border-radius: 10px;
-  border: 3px solid #595652
+  border: 3px solid #595652;
   list-style-type: inherit;
 }
 
 .cards a:hover {
   background-color: #f33;
   color: #fff;
-}
-
-
-
-}
-
-
-
-
-
-
-
-- *Typefaces:* `Bevan` (from Google Fonts)
-- *Line height:* `1.5`
-- *Colours:* `#fff` white, `#79756f` box grey, `#595652`outside border, `#713837` deep red, `#f33`hover red
-- *Paddings:* `.6em`, `0.5em 0.75em`
-- *Margin:* `0.3em`
