@@ -1,0 +1,22 @@
+html {
+  box-sizing: border-box;
+  background-color: #f33;
+  font-family: 'Bevan', cursive;
+  line-height: 1.5rem;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+
+
+
+
+
+
+- *Typefaces:* `Bevan` (from Google Fonts)
+- *Line height:* `1.5`
+- *Colours:* `#fff` white, `#79756f` box grey, `#595652`outside border, `#713837` deep red, `#f33`hover red
+- *Paddings:* `.6em`, `0.5em 0.75em`
+- *Margin:* `0.3em`
