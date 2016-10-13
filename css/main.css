@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #f33;
-  font-family: 'Bevan', cursive;
+  font-family: "Bevan", cursive;
   line-height: 1.5rem;
 }
 
@@ -10,10 +10,13 @@ html {
   background-color: #79756f;
 }
 
-.cards {
+.cards h1 {
   text-align: center;
   font-weight: bold;
   color: #fff;
+}
+
+.cards ul li a {
   display: inline-block;
   padding: 0.5em 0.75em;
   background-color: #713837;
@@ -26,3 +29,4 @@ html {
 .cards a:hover {
   background-color: #f33;
   color: #fff;
+}
