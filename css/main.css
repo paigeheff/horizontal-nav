@@ -16,7 +16,9 @@ html {
   padding: 0.5em 0.75em;
   background-color: #713837;
   margin: 0.3em;
-  border-radius: 4px;
+  border-radius: 10px;
+  border: 3px solid #595652
+  list-style-type: inherit;
 }
 
 .cards a:hover {
