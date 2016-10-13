@@ -9,6 +9,15 @@ html {
   box-sizing: inherit;
 }
 
+.boxes {
+  font-weight: bold;
+  color: #fff;
+}
+
+.boxes a:hover {
+  background-color: #f33;
+  color: #fff;
+}
 
 
 
