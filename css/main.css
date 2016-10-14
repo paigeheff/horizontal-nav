@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    background-color: #
 }
 
 *,
@@ -34,7 +35,7 @@ header {
 /* Planets title */
 
 h1 {
-    font-family: "Bevan", cursive;
+    font-family: "Bevan", serif;
     line-height: 1.5;
     text-align: center;
     color: #fff;
