@@ -1,64 +1,81 @@
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
 }
+
 
 /* body */
+
 body {
-  font-family: helvetica, sans-serif;
-  margin: 0.3em;
-  background-color: #fff;
+    font-family: helvetica, sans-serif;
+    margin: 0em;
+    background-color: #fff;
 }
+
+ul > li:hover{
+    background-color: #f33    
+}
+
+
 /* header */
 
 header {
-  background-color: #79756f;
-  border: 3px solid #595652;
+    background-color: #79756f;
+    border: 3px solid #595652;
+    margin: 0;
 }
+
+
 /* Planets title */
 
 h1 {
-  font-family: "Bevan", cursive;
-  line-height: 1.5;
-  text-align: center;
-  color: #fff;
+    font-family: "Bevan", cursive;
+    line-height: 1.5;
+    text-align: center;
+    color: #fff;
 }
+
+
 /* Navigation general class starts */
 
 .navigation {
-  margin: 0.3em;
-  padding: 0.6em;
-  list-style-type: none;
-  text-align: center;
-  color: #fff;
-  text-decoration: none;
+    margin: 0.3em;
+    padding: 0.6em;
+    list-style-type: none;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
 }
+
+
 /* Navigation inside of boxes */
 
 .navigation li {
-  display: inline-block;
-  margin: 0.3em;
-  max-width: 20em;
-  padding: 0.75em;
-  background-color: #713837;
-  border-radius: 3px;
-  text-align: center;
-  text-decoration: none;
+    display: inline-block;
+    margin: 0.3em;
+    max-width: 20em;
+    padding: 0.75em;
+    background-color: #713837;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
 }
 
 .navigation a:hover {
-  background-color: #f33;
-  text-decoration: none;
-  color: #fff;
+    background-color: #f33;
+    text-decoration: none;
+    color: #fff;
 }
 
 a {
-  text-decoration: none;
-  color: #fff;
+    text-decoration: none;
+    color: #fff;
 }
-a hover {
-  background-color: #f33;
-}
+
+
+
