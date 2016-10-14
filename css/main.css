@@ -17,8 +17,8 @@ body {
     background-color: #fff;
 }
 
-ul > li:hover{
-    background-color: #f33    
+ul > li:hover {
+    background-color: #f33
 }
 
 
@@ -76,6 +76,4 @@ a {
     text-decoration: none;
     color: #fff;
 }
-
-
 
