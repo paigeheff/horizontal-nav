@@ -14,7 +14,7 @@ html {
 body {
   font-family: helvetica, sans-serif;
   background-color: #fff;
-  margin: 0em;
+  margin: 0;
 }
 
 ul > li:hover {
@@ -27,7 +27,7 @@ header {
   background-color: #79756f;
   border: 3px solid #595652;
   margin: 0;
-  height: 150px;
+  padding: .5em 0;
 }
 
 /* Planets title */
@@ -37,18 +37,17 @@ h1 {
   line-height: 1.5;
   text-align: center;
   color: #fff;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 /* Navigation general class starts */
 
 .navigation {
-  margin: 0.3em;
-  padding: 0.6em;
   list-style-type: none;
   text-align: center;
   color: #fff;
   text-decoration: none;
+  margin: 0;
 }
 
 /* Navigation inside of boxes */
